@@ -53,7 +53,7 @@ npm install express router
 node app.js
 ```
 
-the codespaces enviourment will notify you with a link to the Application access or you can:
+the codespaces environment will notify you with a link to the Application access or you can:
 
 ```Bash
 curl http://localhost:8080
@@ -75,7 +75,7 @@ git commit -m "hello-world app"
 git push
 ```
 
-#### 5. now let build a Contianer for our app and push it to our quay.io image registry
+#### 5. now let's build a Contianer for our app and push it to our quay.io image registry
 
 i. create a Dockerfile in our Home folder
 
@@ -117,7 +117,7 @@ iii. build the continer image
 docker build . -t quay.io/<quay-userName>/<imageName>:v1
 ```
 
-and wait for it to finish
+wait for it to finish
 
 navigate to www.quay.io, and login with your qauy username and password
 
@@ -148,6 +148,6 @@ git commit -m "added Dockerfile"
 git push
 ```
 
-## Great Jog You have Finished Part 1
+## Great Job you've Finished Part 1
 
 ### Now you can start part 2 [Here](https://github.com/rhilconsultants/HELM-ArgoCD-Lab/blob/main/Lab1/Lab1_Part_2.md)
