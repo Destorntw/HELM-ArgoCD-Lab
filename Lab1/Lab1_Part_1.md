@@ -28,7 +28,7 @@ Fill the fields:
 - entrypoint = app.js
 - all the rest leave empty
 
-#### 3. open the file in VScode(codespaces) and create a basic web application
+#### 3. open the file in VScode(codespaces) and create a basic web application - copy to the "app.js" file
 
 ```js
 const express = require('express');
